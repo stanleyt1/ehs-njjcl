@@ -6,8 +6,9 @@ html{
 
 .main {
   background-image: -webkit-linear-gradient(-20deg, #612466 60%, #FFFFFF 40%);
-  min-height: 800px;
+  background-size: cover;
   opacity: 0;
+  height: 100vh;
  	
 }
 
@@ -30,18 +31,6 @@ html{
 	border-width: 5px;
 }
 
-
-.main h1{
-	color: white;
-	font-weight: bold;
-	padding-top: 20px;
-	padding-left: 100px;
-	font-size: 30px;
-	
-	
-	letter-spacing: 2px;
-}
-
 .main h1{
 	color: white;
 	font-weight: bold;
@@ -54,14 +43,15 @@ html{
 
 .main #base{
 	position: absolute;
-	left: 1100px;
-	top: 325px;
+	left: 78%;
+	top:40%;
+	
 }
 
 .main #light{
 	position: absolute;
-	left: 1135px;
-	top: 150px;
+	top: 20%;
+	left: 80%;
 }
 
 button{
@@ -82,8 +72,7 @@ button p{
 }
 
 .mid{
-	min-width: 1440px;
-	min-height: 800px;
+	height: 100vh;
 }
 
 .mid h1{
@@ -115,7 +104,7 @@ button p{
 
 .lc{
 	min-width: 1440px;
-	min-height: 800px;
+	height: 100vh;
 }
 
 .lc h1{

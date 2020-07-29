@@ -41,7 +41,7 @@ function undoCoolStuff(){
 
 function scroll(){
 	window.scroll({
-		top:800,
+		top:window.innerHeight,
 		behavior: 'smooth',
 	});
 
